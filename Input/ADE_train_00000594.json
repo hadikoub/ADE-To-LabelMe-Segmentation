@@ -1,0 +1,4300 @@
+{
+  "annotation": {
+    "filename": "ADE_train_00000594.jpg",
+    "folder": "ADE20K_2021_17_01/images/ADE/training/home_or_hotel/kitchen",
+    "imsize": [1003, 1280, 3],
+    "source": {
+      "folder": "/static_sun_database/k/kitchen",
+      "filename": "sun_aaeggavxrhahhhsp.jpg",
+      "origin": "Downloaded from Google search. Image might be subject to copyright. Use only for non-commercial research and educational purposes."
+    },
+    "scene": ["indoor", "home or hotel", "kitchen"],
+    "object": [
+      {
+        "id": 0,
+        "name": "ceiling",
+        "name_ndx": 447,
+        "hypernym": [
+          "ceiling",
+          "upper surface",
+          "side",
+          "surface",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "ceiling",
+        "attributes": [],
+        "depth_ordering_rank": 1,
+        "occluded": [],
+        "crop": "0",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_000_ADE_train_00000594.png",
+        "polygon": {
+          "x": [2, 2, 629, 672, 881, 1070, 1055, 1277, 1277],
+          "y": [1, 224, 336, 326, 368, 344, 325, 285, 0],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:00:27"
+      },
+      {
+        "id": 1,
+        "name": "fan",
+        "name_ndx": 894,
+        "hypernym": [
+          "fan",
+          "device",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "ceiling fan",
+        "attributes": [],
+        "depth_ordering_rank": 2,
+        "occluded": "no",
+        "crop": "0",
+        "parts": {
+          "hasparts": [49, 50, 51, 52, 53, 54, 55],
+          "ispartof": [],
+          "part_level": 0
+        },
+        "instance_mask": "ADE_train_00000594/instance_001_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            366, 358, 352, 353, 350, 153, 101, 97, 101, 108, 309, 319, 334, 359,
+            363, 379, 389, 377, 366, 352, 240, 275, 293, 360, 365, 374, 388,
+            407, 414, 425, 436, 452, 459, 473, 505, 549, 561, 507, 491, 472,
+            489, 503, 508, 520, 550, 722, 736, 741, 736, 534, 528, 512, 510,
+            515, 512, 505, 515, 388
+          ],
+          "y": [
+            10, 18, 28, 46, 55, 1, 1, 10, 25, 28, 74, 81, 82, 82, 90, 99, 103,
+            109, 115, 118, 178, 186, 184, 150, 154, 158, 180, 193, 197, 205,
+            206, 198, 194, 181, 217, 202, 193, 134, 116, 108, 101, 101, 112,
+            120, 122, 123, 100, 73, 63, 65, 65, 73, 63, 46, 37, 25, 1, 0
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:01:16"
+      },
+      {
+        "id": 5,
+        "name": "wall",
+        "name_ndx": 2978,
+        "hypernym": [
+          "wall",
+          "partition, divider",
+          "structure, construction",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "wall",
+        "attributes": [],
+        "depth_ordering_rank": 3,
+        "occluded": [],
+        "crop": "0",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_005_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            670, 657, 657, 659, 581, 297, 288, 289, 209, 95, 95, 54, 53, 2, 0,
+            59, 61, 219, 219, 242, 625, 624, 630, 672
+          ],
+          "y": [
+            746, 742, 595, 586, 578, 596, 599, 612, 614, 619, 622, 625, 577,
+            575, 503, 502, 445, 450, 506, 505, 506, 352, 337, 327
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:03:15"
+      },
+      {
+        "id": 6,
+        "name": "work surface",
+        "name_ndx": 3087,
+        "hypernym": [
+          "work surface",
+          "surface",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "work surface",
+        "attributes": [],
+        "depth_ordering_rank": 4,
+        "occluded": [],
+        "crop": "0",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_006_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            348, 657, 659, 581, 288, 288, 287, 94, 95, 53, 53, 22, 2, 0, 130,
+            139, 156, 170, 183, 200, 214, 226, 238, 243, 346
+          ],
+          "y": [
+            621, 596, 586, 576, 595, 609, 612, 619, 623, 625, 633, 639, 637,
+            666, 654, 638, 628, 621, 617, 616, 616, 619, 631, 644, 635
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:04:44"
+      },
+      {
+        "id": 7,
+        "name": "double door",
+        "name_ndx": 783,
+        "hypernym": [
+          "double door",
+          "door",
+          "movable barrier",
+          "barrier",
+          "obstruction, obstructor, obstructer, impediment, impedimenta",
+          "structure, construction",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "double door",
+        "attributes": [],
+        "depth_ordering_rank": 5,
+        "occluded": "yes",
+        "crop": "1",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_007_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            779, 710, 708, 798, 802, 801, 797, 793, 797, 801, 799, 770, 770,
+            771, 776, 775, 776, 779, 778, 776, 777, 774, 773, 765, 759, 758,
+            708, 708, 784, 784, 769, 716, 715, 769, 782
+          ],
+          "y": [
+            717, 735, 385, 398, 604, 605, 590, 534, 520, 514, 443, 443, 461,
+            475, 483, 491, 503, 511, 526, 539, 555, 574, 586, 600, 608, 615,
+            624, 636, 646, 676, 669, 680, 689, 702, 699
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:05:26"
+      },
+      {
+        "id": 8,
+        "name": "double door",
+        "name_ndx": 783,
+        "hypernym": [
+          "double door",
+          "door",
+          "movable barrier",
+          "barrier",
+          "obstruction, obstructor, obstructer, impediment, impedimenta",
+          "structure, construction",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "double door",
+        "attributes": [],
+        "depth_ordering_rank": 6,
+        "occluded": "yes",
+        "crop": "1",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_008_ADE_train_00000594.png",
+        "polygon": {
+          "x": [877, 878, 826, 824],
+          "y": [597, 414, 407, 606],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:06:14"
+      },
+      {
+        "id": 9,
+        "name": "wall",
+        "name_ndx": 2978,
+        "hypernym": [
+          "wall",
+          "partition, divider",
+          "structure, construction",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "wall",
+        "attributes": [],
+        "depth_ordering_rank": 7,
+        "occluded": [],
+        "crop": "0",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_009_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            1069, 1071, 884, 672, 672, 709, 710, 797, 804, 806, 822, 826, 866,
+            878, 891, 894, 883, 878, 867, 864, 863, 878, 921, 917, 911, 900,
+            891, 878, 880, 921, 948, 950, 938, 921, 949, 953, 961, 962, 953
+          ],
+          "y": [
+            391, 347, 368, 325, 750, 740, 386, 397, 603, 607, 606, 409, 411,
+            408, 408, 402, 383, 378, 371, 371, 365, 367, 364, 380, 387, 399,
+            408, 418, 597, 592, 597, 588, 584, 539, 539, 418, 418, 413, 405
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:13:12"
+      },
+      {
+        "id": 11,
+        "name": "door",
+        "name_ndx": 774,
+        "hypernym": [
+          "door",
+          "movable barrier",
+          "barrier",
+          "obstruction, obstructor, obstructer, impediment, impedimenta",
+          "structure, construction",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "door",
+        "attributes": [],
+        "depth_ordering_rank": 8,
+        "occluded": "yes",
+        "crop": "1",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_011_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            1072, 1072, 1064, 1070, 1071, 953, 960, 960, 954, 948, 953, 978,
+            977, 955, 952
+          ],
+          "y": [
+            605, 448, 444, 440, 391, 404, 413, 417, 418, 538, 539, 578, 586,
+            587, 597
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:14:42"
+      },
+      {
+        "id": 12,
+        "name": "cabinet",
+        "name_ndx": 350,
+        "hypernym": [
+          "cabinet",
+          "furniture, piece of furniture, article of furniture",
+          "furnishing",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "cabinet",
+        "attributes": [],
+        "depth_ordering_rank": 9,
+        "occluded": [],
+        "crop": "0",
+        "parts": {
+          "hasparts": [56, 57, 59, 61, 69],
+          "ispartof": [],
+          "part_level": 0
+        },
+        "instance_mask": "ADE_train_00000594/instance_012_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            1277, 1139, 1135, 1145, 1145, 1071, 1071, 1064, 1071, 1068, 1053,
+            1279
+          ],
+          "y": [793, 764, 625, 622, 612, 605, 448, 443, 438, 340, 324, 284],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:15:19"
+      },
+      {
+        "id": 13,
+        "name": "microwave, microwave oven",
+        "name_ndx": 1551,
+        "hypernym": [
+          "microwave, microwave oven",
+          "kitchen appliance",
+          "home appliance, household appliance",
+          "appliance",
+          "durables, durable goods, consumer durables",
+          "consumer goods",
+          "commodity, trade good, good",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "microwave",
+        "attributes": [],
+        "depth_ordering_rank": 10,
+        "occluded": [],
+        "crop": "0",
+        "parts": { "hasparts": [63, 64], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_013_ADE_train_00000594.png",
+        "polygon": {
+          "x": [1078, 1258, 1259, 1079],
+          "y": [450, 441, 541, 539],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:15:46"
+      },
+      {
+        "id": 14,
+        "name": "oven",
+        "name_ndx": 1708,
+        "hypernym": [
+          "oven",
+          "kitchen appliance",
+          "home appliance, household appliance",
+          "appliance",
+          "durables, durable goods, consumer durables",
+          "consumer goods",
+          "commodity, trade good, good",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "oven",
+        "attributes": [],
+        "depth_ordering_rank": 11,
+        "occluded": "yes",
+        "crop": "1",
+        "parts": { "hasparts": [65, 67], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_014_ADE_train_00000594.png",
+        "polygon": {
+          "x": [1079, 1169, 1259, 1259, 1139, 1134, 1145, 1144, 1078],
+          "y": [550, 551, 557, 708, 692, 627, 623, 613, 604],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:16:03"
+      },
+      {
+        "id": 15,
+        "name": "painting, picture",
+        "name_ndx": 1735,
+        "hypernym": [
+          "painting, picture",
+          "graphic art",
+          "art, fine art",
+          "creation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "picture",
+        "attributes": [],
+        "depth_ordering_rank": 12,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_015_ADE_train_00000594.png",
+        "polygon": {
+          "x": [896, 934, 936, 898],
+          "y": [448, 447, 519, 521],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:16:23"
+      },
+      {
+        "id": 16,
+        "name": "candlestick, candle holder",
+        "name_ndx": 378,
+        "hypernym": [
+          "candlestick, candle holder",
+          "holder",
+          "holding device",
+          "device",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "candle holder",
+        "attributes": [],
+        "depth_ordering_rank": 13,
+        "occluded": "yes",
+        "crop": "1",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_016_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            772, 759, 755, 755, 760, 769, 770, 773, 775, 776, 779, 779, 775,
+            777, 773, 769, 783, 780, 785, 787, 788, 796, 797, 798, 799, 791,
+            793, 788, 786, 778, 777, 777, 779, 784, 783, 785, 785, 780, 782, 781
+          ],
+          "y": [
+            625, 626, 625, 617, 609, 593, 585, 567, 548, 539, 522, 514, 502,
+            486, 478, 445, 446, 437, 436, 441, 443, 443, 467, 468, 482, 483,
+            477, 476, 483, 483, 492, 501, 511, 520, 530, 548, 582, 593, 599, 612
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:16:34"
+      },
+      {
+        "id": 17,
+        "name": "candlestick, candle holder",
+        "name_ndx": 378,
+        "hypernym": [
+          "candlestick, candle holder",
+          "holder",
+          "holding device",
+          "device",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "candle holder",
+        "attributes": [],
+        "depth_ordering_rank": 14,
+        "occluded": [],
+        "crop": "0",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_017_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            804, 813, 812, 808, 802, 799, 796, 793, 799, 801, 800, 793, 793,
+            791, 789, 788, 779, 776, 779, 783, 783, 783, 784, 780, 781, 781,
+            776, 770, 773, 779, 785, 795
+          ],
+          "y": [
+            633, 626, 619, 610, 605, 594, 567, 534, 516, 510, 482, 482, 475,
+            475, 476, 482, 485, 501, 510, 516, 530, 549, 579, 591, 602, 614,
+            619, 629, 636, 633, 635, 633
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:17:09"
+      },
+      {
+        "id": 18,
+        "name": "candlestick, candle holder",
+        "name_ndx": 378,
+        "hypernym": [
+          "candlestick, candle holder",
+          "holder",
+          "holding device",
+          "device",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "candle holder",
+        "attributes": [],
+        "depth_ordering_rank": 15,
+        "occluded": [],
+        "crop": "0",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_018_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            849, 819, 819, 826, 832, 829, 825, 828, 831, 830, 832, 826, 825,
+            830, 830, 834, 837, 837, 848, 848, 844, 844, 842, 840, 840, 844,
+            842, 840, 849, 851
+          ],
+          "y": [
+            630, 630, 622, 620, 595, 587, 574, 564, 554, 544, 537, 534, 499,
+            500, 494, 492, 492, 498, 499, 525, 534, 540, 548, 557, 567, 579,
+            591, 615, 618, 623
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:17:48"
+      },
+      {
+        "id": 19,
+        "name": "hotplate",
+        "name_ndx": 1274,
+        "hypernym": [],
+        "raw_name": "hotplate",
+        "attributes": [],
+        "depth_ordering_rank": 16,
+        "occluded": [],
+        "crop": "0",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_019_ADE_train_00000594.png",
+        "polygon": {
+          "x": [871, 953, 1092, 1019],
+          "y": [623, 605, 620, 642],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:18:15"
+      },
+      {
+        "id": 20,
+        "name": "work surface",
+        "name_ndx": 3087,
+        "hypernym": [
+          "work surface",
+          "surface",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "work surface",
+        "attributes": [],
+        "depth_ordering_rank": 17,
+        "occluded": [],
+        "crop": "0",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_020_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            935, 699, 699, 756, 757, 769, 769, 779, 786, 797, 802, 809, 814,
+            813, 807, 828, 827, 821, 819, 848, 851, 851, 840, 840, 920, 1143,
+            1145, 970
+          ],
+          "y": [
+            671, 636, 624, 616, 623, 624, 634, 633, 635, 634, 635, 630, 629,
+            621, 608, 605, 619, 621, 630, 631, 626, 621, 614, 605, 590, 612,
+            621, 672
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:20:39"
+      },
+      {
+        "id": 21,
+        "name": "book",
+        "name_ndx": 236,
+        "hypernym": [
+          "book",
+          "publication",
+          "work, piece of work",
+          "product, production",
+          "creation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "book",
+        "attributes": [],
+        "depth_ordering_rank": 18,
+        "occluded": [],
+        "crop": "0",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_021_ADE_train_00000594.png",
+        "polygon": {
+          "x": [953, 978, 978, 958, 921, 937],
+          "y": [585, 586, 580, 539, 540, 585],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:21:10"
+      },
+      {
+        "id": 23,
+        "name": "stool",
+        "name_ndx": 2586,
+        "hypernym": [
+          "stool",
+          "seat",
+          "furniture, piece of furniture, article of furniture",
+          "furnishing",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "stool",
+        "attributes": [],
+        "depth_ordering_rank": 19,
+        "occluded": "yes",
+        "crop": "1",
+        "parts": {
+          "hasparts": [70, 71, 72, 73, 74, 75, 76],
+          "ispartof": [],
+          "part_level": 0
+        },
+        "instance_mask": "ADE_train_00000594/instance_023_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            713, 703, 722, 715, 716, 769, 783, 779, 772, 777, 768, 765, 759,
+            761, 728, 723, 757, 758, 724, 760, 760, 723, 717, 758, 758, 719,
+            774, 772, 715
+          ],
+          "y": [
+            844, 844, 691, 689, 682, 669, 675, 854, 855, 701, 701, 821, 821,
+            702, 694, 755, 746, 753, 763, 774, 781, 769, 813, 799, 808, 818,
+            840, 848, 826
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:22:22"
+      },
+      {
+        "id": 24,
+        "name": "chair",
+        "name_ndx": 471,
+        "hypernym": [
+          "chair",
+          "seat",
+          "furniture, piece of furniture, article of furniture",
+          "furnishing",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "chair",
+        "attributes": [],
+        "depth_ordering_rank": 20,
+        "occluded": "yes",
+        "crop": "1",
+        "parts": { "hasparts": 77, "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_024_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            657, 662, 668, 663, 655, 638, 615, 595, 575, 556, 534, 516, 502,
+            495, 487
+          ],
+          "y": [
+            857, 834, 792, 763, 739, 713, 694, 688, 685, 685, 693, 707, 729,
+            748, 776
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:23:08"
+      },
+      {
+        "id": 25,
+        "name": "cabinet",
+        "name_ndx": 350,
+        "hypernym": [
+          "cabinet",
+          "furniture, piece of furniture, article of furniture",
+          "furnishing",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "cabinet",
+        "attributes": [],
+        "depth_ordering_rank": 21,
+        "occluded": [],
+        "crop": "0",
+        "parts": { "hasparts": [85, 86, 88], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_025_ADE_train_00000594.png",
+        "polygon": {
+          "x": [495, 494, 630, 624, 623, 493],
+          "y": [336, 311, 335, 352, 506, 504],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:23:36"
+      },
+      {
+        "id": 26,
+        "name": "cabinet",
+        "name_ndx": 350,
+        "hypernym": [
+          "cabinet",
+          "furniture, piece of furniture, article of furniture",
+          "furnishing",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "cabinet",
+        "attributes": [],
+        "depth_ordering_rank": 22,
+        "occluded": "no",
+        "crop": "0",
+        "parts": {
+          "hasparts": [90, 91, 92, 95, 96, 98],
+          "ispartof": [],
+          "part_level": 0
+        },
+        "instance_mask": "ADE_train_00000594/instance_026_ADE_train_00000594.png",
+        "polygon": {
+          "x": [219, 239, 242, 494, 492, 242, 219],
+          "y": [450, 449, 266, 310, 506, 506, 508],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:23:52"
+      },
+      {
+        "id": 27,
+        "name": "cabinet",
+        "name_ndx": 350,
+        "hypernym": [
+          "cabinet",
+          "furniture, piece of furniture, article of furniture",
+          "furnishing",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "cabinet",
+        "attributes": [],
+        "depth_ordering_rank": 23,
+        "occluded": "no",
+        "crop": "0",
+        "parts": {
+          "hasparts": [99, 100, 102, 104],
+          "ispartof": [],
+          "part_level": 0
+        },
+        "instance_mask": "ADE_train_00000594/instance_027_ADE_train_00000594.png",
+        "polygon": {
+          "x": [60, 63, 242, 240, 221],
+          "y": [443, 236, 266, 448, 451],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:24:09"
+      },
+      {
+        "id": 28,
+        "name": "cabinet",
+        "name_ndx": 350,
+        "hypernym": [
+          "cabinet",
+          "furniture, piece of furniture, article of furniture",
+          "furnishing",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "cabinet",
+        "attributes": [],
+        "depth_ordering_rank": 24,
+        "occluded": [],
+        "crop": "1",
+        "parts": { "hasparts": [105, 106], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_028_ADE_train_00000594.png",
+        "polygon": {
+          "x": [0, 2, 59, 62, 0],
+          "y": [467, 502, 502, 234, 223],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:24:25"
+      },
+      {
+        "id": 29,
+        "name": "monitor",
+        "name_ndx": 1582,
+        "hypernym": [],
+        "raw_name": "monitor",
+        "attributes": [],
+        "depth_ordering_rank": 25,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 185, "hasparts": 184, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_029_ADE_train_00000594.png",
+        "polygon": {
+          "x": [101, 102, 134, 135, 155, 158, 197, 194],
+          "y": [529, 606, 605, 615, 614, 608, 604, 531],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:24:44"
+      },
+      {
+        "id": 30,
+        "name": "keyboard",
+        "name_ndx": 1370,
+        "hypernym": [],
+        "raw_name": "keyboard",
+        "attributes": [],
+        "depth_ordering_rank": 26,
+        "occluded": "yes",
+        "crop": "1",
+        "parts": { "ispartof": 185, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_030_ADE_train_00000594.png",
+        "polygon": {
+          "x": [101, 96, 174, 168, 153, 146],
+          "y": [636, 618, 616, 622, 629, 633],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:25:00"
+      },
+      {
+        "id": 31,
+        "name": "radio",
+        "name_ndx": 2047,
+        "hypernym": [],
+        "raw_name": "radio",
+        "attributes": [],
+        "depth_ordering_rank": 27,
+        "occluded": [],
+        "crop": "0",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_031_ADE_train_00000594.png",
+        "polygon": {
+          "x": [0, 2, 56, 55, 26, 0],
+          "y": [618, 575, 576, 633, 640, 636],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:25:30"
+      },
+      {
+        "id": 32,
+        "name": "cabinet",
+        "name_ndx": 350,
+        "hypernym": [
+          "cabinet",
+          "furniture, piece of furniture, article of furniture",
+          "furnishing",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "cabinet",
+        "attributes": [],
+        "depth_ordering_rank": 28,
+        "occluded": "yes",
+        "crop": "1",
+        "parts": {
+          "hasparts": [108, 110, 112, 114],
+          "ispartof": [],
+          "part_level": 0
+        },
+        "instance_mask": "ADE_train_00000594/instance_032_ADE_train_00000594.png",
+        "polygon": {
+          "x": [525, 524, 656, 658, 642, 620, 602, 581, 557],
+          "y": [697, 608, 597, 740, 719, 699, 689, 685, 685],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:26:02"
+      },
+      {
+        "id": 33,
+        "name": "cabinet",
+        "name_ndx": 350,
+        "hypernym": [
+          "cabinet",
+          "furniture, piece of furniture, article of furniture",
+          "furnishing",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "cabinet",
+        "attributes": [],
+        "depth_ordering_rank": 29,
+        "occluded": "yes",
+        "crop": "1",
+        "parts": {
+          "hasparts": [116, 118, 120, 122],
+          "ispartof": [],
+          "part_level": 0
+        },
+        "instance_mask": "ADE_train_00000594/instance_033_ADE_train_00000594.png",
+        "polygon": {
+          "x": [351, 350, 524, 525, 515, 502, 495, 488, 463, 422, 386],
+          "y": [750, 622, 607, 697, 710, 727, 748, 775, 766, 757, 751],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:26:20"
+      },
+      {
+        "id": 34,
+        "name": "chest of drawers, chest, bureau, dresser",
+        "name_ndx": 491,
+        "hypernym": [
+          "chest of drawers, chest, bureau, dresser",
+          "furniture, piece of furniture, article of furniture",
+          "furnishing",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "chest of drawers",
+        "attributes": [],
+        "depth_ordering_rank": 30,
+        "occluded": "yes",
+        "crop": "1",
+        "parts": { "hasparts": [124, 126], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_034_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            264, 262, 260, 253, 246, 244, 244, 349, 351, 322, 304, 291, 280
+          ],
+          "y": [
+            752, 727, 707, 694, 685, 684, 646, 636, 750, 750, 750, 747, 747
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:26:38"
+      },
+      {
+        "id": 35,
+        "name": "chair",
+        "name_ndx": 471,
+        "hypernym": [
+          "chair",
+          "seat",
+          "furniture, piece of furniture, article of furniture",
+          "furnishing",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "chair",
+        "attributes": [],
+        "depth_ordering_rank": 31,
+        "occluded": "yes",
+        "crop": "1",
+        "parts": { "hasparts": 128, "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_035_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            130, 135, 151, 165, 174, 186, 208, 219, 228, 234, 239, 243, 242,
+            228, 209, 179, 158, 138
+          ],
+          "y": [
+            658, 643, 631, 623, 619, 617, 615, 615, 621, 629, 641, 651, 680,
+            666, 656, 653, 652, 657
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:27:08"
+      },
+      {
+        "id": 36,
+        "name": "cabinet",
+        "name_ndx": 350,
+        "hypernym": [
+          "cabinet",
+          "furniture, piece of furniture, article of furniture",
+          "furnishing",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "cabinet",
+        "attributes": [],
+        "depth_ordering_rank": 32,
+        "occluded": "no",
+        "crop": "1",
+        "parts": {
+          "hasparts": [136, 138, 140, 142, 143],
+          "ispartof": [],
+          "part_level": 0
+        },
+        "instance_mask": "ADE_train_00000594/instance_036_ADE_train_00000594.png",
+        "polygon": {
+          "x": [2, 54, 53, 52, 62, 74, 92, 125, 2],
+          "y": [812, 793, 770, 744, 710, 688, 675, 659, 667],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:27:31"
+      },
+      {
+        "id": 37,
+        "name": "table",
+        "name_ndx": 2684,
+        "hypernym": [
+          "table",
+          "furniture, piece of furniture, article of furniture",
+          "furnishing",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "table",
+        "attributes": [],
+        "depth_ordering_rank": 33,
+        "occluded": [],
+        "crop": "1",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_037_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            0, 2, 40, 68, 75, 235, 245, 261, 271, 287, 318, 369, 430, 463, 507,
+            588, 643, 672, 699, 712, 715, 715, 713
+          ],
+          "y": [
+            1001, 815, 797, 788, 781, 755, 749, 749, 750, 746, 747, 750, 757,
+            766, 785, 821, 849, 871, 905, 936, 962, 990, 1002
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:28:09"
+      },
+      {
+        "id": 38,
+        "name": "place mat",
+        "name_ndx": 1896,
+        "hypernym": [
+          "place mat",
+          "mat",
+          "pad",
+          "padding, cushioning",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "place mat",
+        "attributes": [],
+        "depth_ordering_rank": 34,
+        "occluded": [],
+        "crop": "0",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_038_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            96, 71, 238, 246, 234, 239, 300, 312, 316, 301, 276, 275, 289, 356,
+            143, 126, 113
+          ],
+          "y": [
+            833, 784, 755, 762, 783, 788, 793, 781, 773, 760, 754, 750, 746,
+            785, 832, 830, 828
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:28:42"
+      },
+      {
+        "id": 39,
+        "name": "place mat",
+        "name_ndx": 1896,
+        "hypernym": [
+          "place mat",
+          "mat",
+          "pad",
+          "padding, cushioning",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "place mat",
+        "attributes": [],
+        "depth_ordering_rank": 35,
+        "occluded": [],
+        "crop": "0",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_039_ADE_train_00000594.png",
+        "polygon": {
+          "x": [308, 463, 629, 519, 447],
+          "y": [803, 769, 847, 892, 915],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:30:01"
+      },
+      {
+        "id": 40,
+        "name": "place mat",
+        "name_ndx": 1896,
+        "hypernym": [
+          "place mat",
+          "mat",
+          "pad",
+          "padding, cushioning",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "place mat",
+        "attributes": [],
+        "depth_ordering_rank": 36,
+        "occluded": "yes",
+        "crop": "1",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_040_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            255, 165, 158, 152, 138, 120, 73, 52, 52, 14, 5, 0, 173, 207, 216,
+            228
+          ],
+          "y": [
+            966, 830, 835, 849, 868, 882, 889, 894, 884, 894, 896, 1000, 1001,
+            988, 980, 978
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:30:15"
+      },
+      {
+        "id": 41,
+        "name": "place mat",
+        "name_ndx": 1896,
+        "hypernym": [
+          "place mat",
+          "mat",
+          "pad",
+          "padding, cushioning",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "place mat",
+        "attributes": [],
+        "depth_ordering_rank": 37,
+        "occluded": [],
+        "crop": "1",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_041_ADE_train_00000594.png",
+        "polygon": {
+          "x": [652, 502, 238, 271, 277],
+          "y": [999, 901, 982, 990, 1000],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:30:40"
+      },
+      {
+        "id": 42,
+        "name": "napkin, table napkin, serviette",
+        "name_ndx": 1644,
+        "hypernym": [
+          "napkin, table napkin, serviette",
+          "table linen, napery",
+          "linen",
+          "white goods, household linen",
+          "drygoods, soft goods",
+          "commodity, trade good, good",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "napkin",
+        "attributes": [],
+        "depth_ordering_rank": 38,
+        "occluded": [],
+        "crop": "0",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_042_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            554, 543, 531, 509, 500, 482, 464, 444, 436, 429, 425, 426, 425,
+            452, 496, 508, 517, 524, 531, 534, 549, 565, 576, 585, 595, 598, 577
+          ],
+          "y": [
+            819, 830, 835, 840, 848, 850, 849, 860, 867, 870, 877, 884, 890,
+            900, 898, 896, 891, 873, 866, 863, 861, 858, 854, 850, 850, 844, 834
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:30:55"
+      },
+      {
+        "id": 43,
+        "name": "napkin, table napkin, serviette",
+        "name_ndx": 1644,
+        "hypernym": [
+          "napkin, table napkin, serviette",
+          "table linen, napery",
+          "linen",
+          "white goods, household linen",
+          "drygoods, soft goods",
+          "commodity, trade good, good",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "napkin",
+        "attributes": [],
+        "depth_ordering_rank": 39,
+        "occluded": [],
+        "crop": "0",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_043_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            242, 246, 242, 240, 243, 261, 267, 280, 297, 308, 315, 308, 300,
+            289, 257, 240, 238
+          ],
+          "y": [
+            774, 766, 760, 754, 748, 748, 752, 754, 760, 768, 773, 783, 792,
+            794, 789, 788, 783
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:31:25"
+      },
+      {
+        "id": 44,
+        "name": "napkin, table napkin, serviette",
+        "name_ndx": 1644,
+        "hypernym": [
+          "napkin, table napkin, serviette",
+          "table linen, napery",
+          "linen",
+          "white goods, household linen",
+          "drygoods, soft goods",
+          "commodity, trade good, good",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "napkin",
+        "attributes": [],
+        "depth_ordering_rank": 40,
+        "occluded": [],
+        "crop": "0",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_044_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            52, 61, 68, 89, 101, 113, 137, 150, 152, 145, 139, 122, 108, 79, 55,
+            53, 21, 3, 5, 29, 42
+          ],
+          "y": [
+            854, 849, 846, 834, 829, 827, 833, 833, 838, 855, 865, 881, 886,
+            889, 896, 884, 892, 897, 864, 859, 859
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:31:41"
+      },
+      {
+        "id": 45,
+        "name": "napkin, table napkin, serviette",
+        "name_ndx": 1644,
+        "hypernym": [
+          "napkin, table napkin, serviette",
+          "table linen, napery",
+          "linen",
+          "white goods, household linen",
+          "drygoods, soft goods",
+          "commodity, trade good, good",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "napkin",
+        "attributes": [],
+        "depth_ordering_rank": 41,
+        "occluded": [],
+        "crop": "1",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_045_ADE_train_00000594.png",
+        "polygon": {
+          "x": [234, 219, 207, 191, 180, 276, 271, 246],
+          "y": [983, 980, 986, 994, 1001, 1000, 993, 985],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:32:02"
+      },
+      {
+        "id": 46,
+        "name": "cabinet",
+        "name_ndx": 350,
+        "hypernym": [
+          "cabinet",
+          "furniture, piece of furniture, article of furniture",
+          "furnishing",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "cabinet",
+        "attributes": [],
+        "depth_ordering_rank": 42,
+        "occluded": [],
+        "crop": "0",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_046_ADE_train_00000594.png",
+        "polygon": {
+          "x": [775, 775, 779, 786, 941, 971, 1134, 1135, 1141, 1141, 960, 929],
+          "y": [894, 863, 860, 648, 674, 675, 628, 802, 804, 826, 964, 958],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:32:18"
+      },
+      {
+        "id": 47,
+        "name": "floor, flooring",
+        "name_ndx": 976,
+        "hypernym": [
+          "floor, flooring",
+          "horizontal surface, level",
+          "surface",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "floor",
+        "attributes": "tile",
+        "depth_ordering_rank": 43,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_047_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            1278, 1277, 1136, 1136, 1141, 1141, 962, 931, 774, 774, 780, 783,
+            709, 709, 676, 659, 661, 666, 666, 656, 664, 685, 701, 709, 714,
+            714, 712
+          ],
+          "y": [
+            1002, 793, 764, 802, 802, 826, 963, 961, 892, 868, 862, 717, 735,
+            739, 750, 741, 757, 787, 807, 855, 866, 886, 910, 935, 968, 990,
+            1002
+          ],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:32:42"
+      },
+      {
+        "id": 48,
+        "name": "wall socket, wall plug, electric outlet, electrical outlet, outlet, electric receptacle",
+        "name_ndx": 2982,
+        "hypernym": [
+          "wall socket, wall plug, electric outlet, electrical outlet, outlet, electric receptacle",
+          "receptacle",
+          "fitting",
+          "accessory, appurtenance, supplement, add-on",
+          "component, constituent, element",
+          "part, portion",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "outlet",
+        "attributes": [],
+        "depth_ordering_rank": 44,
+        "occluded": [],
+        "crop": "0",
+        "parts": { "hasparts": [], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_048_ADE_train_00000594.png",
+        "polygon": {
+          "x": [633, 653, 654, 634],
+          "y": [537, 538, 557, 557],
+          "click_date": []
+        },
+        "saved_date": "24-Feb-2013 21:33:22"
+      },
+      {
+        "id": 49,
+        "name": "blade",
+        "name_ndx": 203,
+        "hypernym": [],
+        "raw_name": "blade",
+        "attributes": [],
+        "depth_ordering_rank": 45,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 1, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_049_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            466, 501, 507, 522, 734, 741, 738, 728, 721, 525, 511, 507, 466
+          ],
+          "y": [86, 90, 79, 66, 63, 75, 100, 116, 124, 122, 113, 100, 100],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 19:22:39"
+      },
+      {
+        "id": 50,
+        "name": "blade",
+        "name_ndx": 203,
+        "hypernym": [],
+        "raw_name": "blade",
+        "attributes": [],
+        "depth_ordering_rank": 46,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 1, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_050_ADE_train_00000594.png",
+        "polygon": {
+          "x": [347, 247, 269, 291, 364, 356, 356, 362, 355],
+          "y": [117, 176, 188, 187, 152, 141, 128, 116, 116],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 19:22:57"
+      },
+      {
+        "id": 51,
+        "name": "blade",
+        "name_ndx": 203,
+        "hypernym": [],
+        "raw_name": "blade",
+        "attributes": [],
+        "depth_ordering_rank": 47,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 1, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_051_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            403, 368, 362, 324, 154, 100, 97, 101, 104, 309, 322, 355, 363, 391,
+            402
+          ],
+          "y": [81, 77, 62, 51, 2, 1, 10, 23, 27, 75, 81, 84, 82, 90, 91],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 19:23:16"
+      },
+      {
+        "id": 52,
+        "name": "blade",
+        "name_ndx": 203,
+        "hypernym": [],
+        "raw_name": "blade",
+        "attributes": [],
+        "depth_ordering_rank": 48,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 1, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_052_ADE_train_00000594.png",
+        "polygon": {
+          "x": [563, 549, 507, 478, 483, 489, 500, 508, 508],
+          "y": [190, 204, 216, 185, 171, 162, 157, 146, 134],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 19:23:31"
+      },
+      {
+        "id": 53,
+        "name": "blade",
+        "name_ndx": 203,
+        "hypernym": [],
+        "raw_name": "blade",
+        "attributes": [],
+        "depth_ordering_rank": 49,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 1, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_053_ADE_train_00000594.png",
+        "polygon": {
+          "x": [430, 435, 418, 412, 415, 515, 485, 467, 446, 443, 435],
+          "y": [80, 60, 47, 27, 1, 2, 62, 66, 65, 82, 85],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 19:23:45"
+      },
+      {
+        "id": 54,
+        "name": "motor",
+        "name_ndx": 1600,
+        "hypernym": [],
+        "raw_name": "motor",
+        "attributes": [],
+        "depth_ordering_rank": 50,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 1, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_054_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            409, 390, 360, 353, 351, 351, 363, 366, 402, 401, 364, 382, 410,
+            438, 466, 474, 482, 464, 464, 499, 505, 511, 510, 513, 514, 508,
+            484, 455, 449, 443, 435, 430, 434, 423, 414, 412, 416
+          ],
+          "y": [
+            3, 0, 13, 27, 48, 57, 60, 76, 82, 91, 85, 104, 102, 101, 105, 106,
+            102, 98, 85, 89, 80, 72, 60, 50, 40, 28, 61, 66, 65, 83, 85, 79, 62,
+            53, 39, 27, 2
+          ],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 19:24:13"
+      },
+      {
+        "id": 55,
+        "name": "shade",
+        "name_ndx": 2311,
+        "hypernym": [],
+        "raw_name": "shade",
+        "attributes": "translucent",
+        "depth_ordering_rank": 51,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 1, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_055_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            418, 390, 367, 357, 357, 366, 378, 392, 409, 426, 441, 463, 478,
+            491, 502, 507, 500, 488, 467, 434
+          ],
+          "y": [
+            97, 102, 112, 128, 141, 153, 164, 182, 198, 204, 205, 191, 179, 161,
+            153, 139, 125, 114, 102, 98
+          ],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 19:24:36"
+      },
+      {
+        "id": 56,
+        "name": "top",
+        "name_ndx": 2814,
+        "hypernym": [],
+        "raw_name": "top",
+        "attributes": "wood",
+        "depth_ordering_rank": 52,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 12, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_056_ADE_train_00000594.png",
+        "polygon": {
+          "x": [1071, 1054, 1280, 1278, 1072],
+          "y": [340, 323, 284, 301, 333],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 19:26:45"
+      },
+      {
+        "id": 57,
+        "name": "door",
+        "name_ndx": 774,
+        "hypernym": [],
+        "raw_name": "door",
+        "attributes": "wood",
+        "depth_ordering_rank": 53,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 58, "ispartof": 12, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_057_ADE_train_00000594.png",
+        "polygon": {
+          "x": [1162, 1080, 1079, 1165],
+          "y": [433, 437, 344, 333],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 19:26:58"
+      },
+      {
+        "id": 58,
+        "name": "knob",
+        "name_ndx": 1380,
+        "hypernym": [],
+        "raw_name": "knob",
+        "attributes": [],
+        "depth_ordering_rank": 54,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 57, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_058_ADE_train_00000594.png",
+        "polygon": {
+          "x": [1154, 1152, 1153, 1156, 1159, 1160, 1159],
+          "y": [423, 427, 430, 430, 430, 426, 424],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 19:27:07"
+      },
+      {
+        "id": 59,
+        "name": "door",
+        "name_ndx": 774,
+        "hypernym": [],
+        "raw_name": "door",
+        "attributes": "wood",
+        "depth_ordering_rank": 55,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 60, "ispartof": 12, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_059_ADE_train_00000594.png",
+        "polygon": {
+          "x": [1262, 1165, 1163, 1263],
+          "y": [319, 332, 432, 427],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 19:27:22"
+      },
+      {
+        "id": 60,
+        "name": "knob",
+        "name_ndx": 1380,
+        "hypernym": [],
+        "raw_name": "knob",
+        "attributes": [],
+        "depth_ordering_rank": 56,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 59, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_060_ADE_train_00000594.png",
+        "polygon": {
+          "x": [1171, 1166, 1168, 1171, 1174, 1176, 1175],
+          "y": [422, 425, 428, 429, 429, 425, 423],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 19:27:33"
+      },
+      {
+        "id": 61,
+        "name": "drawer",
+        "name_ndx": 789,
+        "hypernym": [],
+        "raw_name": "drawer",
+        "attributes": "wood",
+        "depth_ordering_rank": 57,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 62, "ispartof": 12, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_061_ADE_train_00000594.png",
+        "polygon": {
+          "x": [1262, 1138, 1139, 1262],
+          "y": [712, 694, 751, 774],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 21:54:32"
+      },
+      {
+        "id": 62,
+        "name": "handle",
+        "name_ndx": 1180,
+        "hypernym": [],
+        "raw_name": "handle",
+        "attributes": [],
+        "depth_ordering_rank": 58,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 61, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_062_ADE_train_00000594.png",
+        "polygon": {
+          "x": [1150, 1149, 1174, 1173],
+          "y": [720, 726, 730, 725],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 21:54:43"
+      },
+      {
+        "id": 63,
+        "name": "door",
+        "name_ndx": 774,
+        "hypernym": [],
+        "raw_name": "door",
+        "attributes": [],
+        "depth_ordering_rank": 59,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 13, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_063_ADE_train_00000594.png",
+        "polygon": {
+          "x": [1241, 1094, 1092, 1243],
+          "y": [456, 463, 524, 526],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 21:55:50"
+      },
+      {
+        "id": 64,
+        "name": "button panel",
+        "name_ndx": 341,
+        "hypernym": [],
+        "raw_name": "button panel",
+        "attributes": [],
+        "depth_ordering_rank": 60,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 13, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_064_ADE_train_00000594.png",
+        "polygon": {
+          "x": [1213, 1214, 1232, 1231],
+          "y": [473, 512, 513, 474],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 21:56:19"
+      },
+      {
+        "id": 65,
+        "name": "door",
+        "name_ndx": 774,
+        "hypernym": [],
+        "raw_name": "door",
+        "attributes": [],
+        "depth_ordering_rank": 61,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 66, "ispartof": 14, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_065_ADE_train_00000594.png",
+        "polygon": {
+          "x": [1081, 1259, 1257, 1139, 1136, 1147, 1146, 1079],
+          "y": [577, 586, 698, 681, 629, 625, 613, 603],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:00:34"
+      },
+      {
+        "id": 66,
+        "name": "handle",
+        "name_ndx": 1180,
+        "hypernym": [],
+        "raw_name": "handle",
+        "attributes": "metal",
+        "depth_ordering_rank": 62,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 65, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_066_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            1088, 1088, 1119, 1157, 1198, 1225, 1245, 1250, 1250, 1221, 1169,
+            1133, 1107
+          ],
+          "y": [
+            592, 586, 586, 587, 590, 593, 597, 600, 602, 600, 594, 592, 592
+          ],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:01:05"
+      },
+      {
+        "id": 67,
+        "name": "button panel",
+        "name_ndx": 341,
+        "hypernym": [],
+        "raw_name": "button panel",
+        "attributes": [],
+        "depth_ordering_rank": 63,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 68, "ispartof": 14, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_067_ADE_train_00000594.png",
+        "polygon": {
+          "x": [1100, 1099, 1234, 1234, 1162],
+          "y": [555, 573, 581, 560, 556],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:01:28"
+      },
+      {
+        "id": 68,
+        "name": "screen",
+        "name_ndx": 2250,
+        "hypernym": [],
+        "raw_name": "screen",
+        "attributes": "time",
+        "depth_ordering_rank": 64,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 67, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_068_ADE_train_00000594.png",
+        "polygon": {
+          "x": [1166, 1166, 1176, 1176],
+          "y": [567, 561, 562, 567],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:01:45"
+      },
+      {
+        "id": 69,
+        "name": "front",
+        "name_ndx": 1031,
+        "hypernym": [],
+        "raw_name": "front",
+        "attributes": "wood",
+        "depth_ordering_rank": 65,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 12, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_069_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            1279, 1140, 1137, 1147, 1146, 1071, 1074, 1066, 1071, 1072, 1278
+          ],
+          "y": [792, 765, 628, 625, 613, 602, 449, 443, 439, 335, 302],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:03:47"
+      },
+      {
+        "id": 70,
+        "name": "seat",
+        "name_ndx": 2272,
+        "hypernym": [],
+        "raw_name": "seat",
+        "attributes": "wood",
+        "depth_ordering_rank": 66,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 23, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_070_ADE_train_00000594.png",
+        "polygon": {
+          "x": [763, 716, 716, 768, 785, 783, 778, 770],
+          "y": [699, 690, 682, 668, 676, 699, 700, 700],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:05:07"
+      },
+      {
+        "id": 71,
+        "name": "leg",
+        "name_ndx": 1433,
+        "hypernym": [],
+        "raw_name": "leg",
+        "attributes": "wood",
+        "depth_ordering_rank": 67,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 23, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_071_ADE_train_00000594.png",
+        "polygon": {
+          "x": [702, 722, 730, 712],
+          "y": [843, 693, 695, 845],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:05:36"
+      },
+      {
+        "id": 72,
+        "name": "leg",
+        "name_ndx": 1433,
+        "hypernym": [],
+        "raw_name": "leg",
+        "attributes": "wood",
+        "depth_ordering_rank": 68,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 23, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_072_ADE_train_00000594.png",
+        "polygon": {
+          "x": [756, 761, 770, 765, 761],
+          "y": [822, 701, 701, 824, 824],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:05:49"
+      },
+      {
+        "id": 73,
+        "name": "leg",
+        "name_ndx": 1433,
+        "hypernym": [],
+        "raw_name": "leg",
+        "attributes": "wood",
+        "depth_ordering_rank": 69,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 23, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_073_ADE_train_00000594.png",
+        "polygon": {
+          "x": [772, 778, 784, 779, 776],
+          "y": [858, 702, 701, 856, 860],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:06:05"
+      },
+      {
+        "id": 74,
+        "name": "stretcher",
+        "name_ndx": 2617,
+        "hypernym": [],
+        "raw_name": "stretcher",
+        "attributes": "wood",
+        "depth_ordering_rank": 70,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 23, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_074_ADE_train_00000594.png",
+        "polygon": {
+          "x": [727, 758, 758, 724, 725],
+          "y": [752, 746, 753, 763, 755],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:06:30"
+      },
+      {
+        "id": 75,
+        "name": "stretcher",
+        "name_ndx": 2617,
+        "hypernym": [],
+        "raw_name": "stretcher",
+        "attributes": "wood",
+        "depth_ordering_rank": 71,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 23, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_075_ADE_train_00000594.png",
+        "polygon": {
+          "x": [756, 756, 725, 722],
+          "y": [781, 774, 764, 769],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:06:48"
+      },
+      {
+        "id": 76,
+        "name": "stretcher",
+        "name_ndx": 2617,
+        "hypernym": [],
+        "raw_name": "stretcher",
+        "attributes": "wood",
+        "depth_ordering_rank": 72,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 23, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_076_ADE_train_00000594.png",
+        "polygon": {
+          "x": [716, 771, 771, 717],
+          "y": [828, 848, 841, 819],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:07:06"
+      },
+      {
+        "id": 77,
+        "name": "back",
+        "name_ndx": 83,
+        "hypernym": [],
+        "raw_name": "back",
+        "attributes": "wood",
+        "depth_ordering_rank": 73,
+        "occluded": "no",
+        "crop": "0",
+        "parts": {
+          "hasparts": [78, 79, 80, 81, 82, 83, 84],
+          "ispartof": 24,
+          "part_level": 1
+        },
+        "instance_mask": "ADE_train_00000594/instance_077_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            485, 492, 508, 524, 546, 565, 586, 607, 625, 640, 652, 659, 667,
+            667, 667, 661, 656, 637, 546
+          ],
+          "y": [
+            772, 746, 716, 698, 688, 683, 685, 690, 702, 715, 732, 746, 773,
+            790, 808, 838, 856, 845, 803
+          ],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:08:49"
+      },
+      {
+        "id": 78,
+        "name": "rail",
+        "name_ndx": 2051,
+        "hypernym": [],
+        "raw_name": "rail",
+        "attributes": "wood",
+        "depth_ordering_rank": 74,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 77, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_078_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            501, 509, 523, 528, 540, 552, 562, 573, 585, 603, 621, 634, 643,
+            647, 649, 645, 640, 656, 663, 667, 662, 651, 630, 608, 584, 563,
+            544, 526, 511, 496, 486, 493
+          ],
+          "y": [
+            777, 748, 726, 717, 709, 703, 701, 699, 700, 710, 722, 738, 762,
+            781, 800, 831, 847, 856, 827, 786, 755, 730, 707, 693, 685, 684,
+            690, 699, 715, 738, 771, 777
+          ],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:09:27"
+      },
+      {
+        "id": 79,
+        "name": "spindle",
+        "name_ndx": 2499,
+        "hypernym": [],
+        "raw_name": "spindle",
+        "attributes": "wood",
+        "depth_ordering_rank": 75,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 77, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_079_ADE_train_00000594.png",
+        "polygon": {
+          "x": [524, 523, 519, 516, 514, 527, 530, 529, 529, 528],
+          "y": [715, 736, 760, 766, 789, 795, 772, 754, 721, 716],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:09:58"
+      },
+      {
+        "id": 80,
+        "name": "spindle",
+        "name_ndx": 2499,
+        "hypernym": [],
+        "raw_name": "spindle",
+        "attributes": "wood",
+        "depth_ordering_rank": 76,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 77, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_080_ADE_train_00000594.png",
+        "polygon": {
+          "x": [548, 542, 538, 535, 547, 553, 550, 552],
+          "y": [701, 745, 755, 799, 804, 761, 746, 702],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:10:42"
+      },
+      {
+        "id": 81,
+        "name": "spindle",
+        "name_ndx": 2499,
+        "hypernym": [],
+        "raw_name": "spindle",
+        "attributes": "wood",
+        "depth_ordering_rank": 77,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 77, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_081_ADE_train_00000594.png",
+        "polygon": {
+          "x": [572, 566, 563, 558, 569, 576, 574, 577],
+          "y": [702, 746, 755, 809, 813, 764, 748, 700],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:11:04"
+      },
+      {
+        "id": 82,
+        "name": "spindle",
+        "name_ndx": 2499,
+        "hypernym": [],
+        "raw_name": "spindle",
+        "attributes": [],
+        "depth_ordering_rank": 78,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 77, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_082_ADE_train_00000594.png",
+        "polygon": {
+          "x": [596, 591, 588, 584, 577, 589, 598, 598, 601],
+          "y": [708, 743, 753, 761, 816, 821, 765, 754, 709],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:11:20"
+      },
+      {
+        "id": 83,
+        "name": "spindle",
+        "name_ndx": 2499,
+        "hypernym": [],
+        "raw_name": "spindle",
+        "attributes": [],
+        "depth_ordering_rank": 79,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 77, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_083_ADE_train_00000594.png",
+        "polygon": {
+          "x": [619, 612, 606, 599, 610, 619, 619, 621, 624],
+          "y": [723, 763, 778, 826, 832, 788, 770, 747, 726],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:11:36"
+      },
+      {
+        "id": 84,
+        "name": "spindle",
+        "name_ndx": 2499,
+        "hypernym": [],
+        "raw_name": "spindle",
+        "attributes": [],
+        "depth_ordering_rank": 80,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 77, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_084_ADE_train_00000594.png",
+        "polygon": {
+          "x": [637, 629, 626, 623, 618, 629, 635, 636, 639, 641],
+          "y": [752, 791, 800, 809, 836, 842, 813, 798, 777, 759],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:12:04"
+      },
+      {
+        "id": 85,
+        "name": "top",
+        "name_ndx": 2814,
+        "hypernym": [],
+        "raw_name": "top",
+        "attributes": "wood",
+        "depth_ordering_rank": 81,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 25, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_085_ADE_train_00000594.png",
+        "polygon": {
+          "x": [562, 494, 495, 630, 624],
+          "y": [343, 331, 311, 336, 353],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:13:56"
+      },
+      {
+        "id": 86,
+        "name": "door",
+        "name_ndx": 774,
+        "hypernym": [],
+        "raw_name": "door",
+        "attributes": "wood",
+        "depth_ordering_rank": 82,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 87, "ispartof": 25, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_086_ADE_train_00000594.png",
+        "polygon": {
+          "x": [563, 494, 497, 563],
+          "y": [499, 497, 333, 344],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:14:30"
+      },
+      {
+        "id": 87,
+        "name": "knob",
+        "name_ndx": 1380,
+        "hypernym": [],
+        "raw_name": "knob",
+        "attributes": [],
+        "depth_ordering_rank": 83,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 86, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_087_ADE_train_00000594.png",
+        "polygon": {
+          "x": [558, 556, 560, 563, 564, 563],
+          "y": [487, 494, 497, 496, 491, 489],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:14:40"
+      },
+      {
+        "id": 88,
+        "name": "door",
+        "name_ndx": 774,
+        "hypernym": [],
+        "raw_name": "door",
+        "attributes": "wood",
+        "depth_ordering_rank": 84,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 89, "ispartof": 25, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_088_ADE_train_00000594.png",
+        "polygon": {
+          "x": [565, 623, 623, 565],
+          "y": [345, 353, 499, 499],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:15:01"
+      },
+      {
+        "id": 89,
+        "name": "knob",
+        "name_ndx": 1380,
+        "hypernym": [],
+        "raw_name": "knob",
+        "attributes": [],
+        "depth_ordering_rank": 85,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 88, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_089_ADE_train_00000594.png",
+        "polygon": {
+          "x": [570, 567, 567, 568, 571, 574, 574],
+          "y": [487, 490, 494, 497, 497, 494, 491],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:15:14"
+      },
+      {
+        "id": 90,
+        "name": "top",
+        "name_ndx": 2814,
+        "hypernym": [],
+        "raw_name": "top",
+        "attributes": "wood",
+        "depth_ordering_rank": 86,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 26, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_090_ADE_train_00000594.png",
+        "polygon": {
+          "x": [243, 493, 494, 243],
+          "y": [289, 329, 309, 266],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:16:58"
+      },
+      {
+        "id": 91,
+        "name": "door",
+        "name_ndx": 774,
+        "hypernym": [],
+        "raw_name": "door",
+        "attributes": "wood",
+        "depth_ordering_rank": 87,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 93, "ispartof": 26, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_091_ADE_train_00000594.png",
+        "polygon": {
+          "x": [324, 414, 413, 322],
+          "y": [311, 323, 496, 495],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:17:21"
+      },
+      {
+        "id": 92,
+        "name": "door",
+        "name_ndx": 774,
+        "hypernym": [],
+        "raw_name": "door",
+        "attributes": "wood",
+        "depth_ordering_rank": 88,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 94, "ispartof": 26, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_092_ADE_train_00000594.png",
+        "polygon": {
+          "x": [244, 322, 320, 242],
+          "y": [298, 309, 495, 494],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:17:38"
+      },
+      {
+        "id": 93,
+        "name": "knob",
+        "name_ndx": 1380,
+        "hypernym": [],
+        "raw_name": "knob",
+        "attributes": [],
+        "depth_ordering_rank": 89,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 91, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_093_ADE_train_00000594.png",
+        "polygon": {
+          "x": [408, 404, 407, 409, 412, 412],
+          "y": [484, 489, 492, 494, 492, 488],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:17:50"
+      },
+      {
+        "id": 94,
+        "name": "knob",
+        "name_ndx": 1380,
+        "hypernym": [],
+        "raw_name": "knob",
+        "attributes": [],
+        "depth_ordering_rank": 90,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 92, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_094_ADE_train_00000594.png",
+        "polygon": {
+          "x": [252, 246, 246, 247, 251, 255, 256, 256, 255],
+          "y": [479, 482, 487, 489, 491, 490, 488, 484, 482],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:18:03"
+      },
+      {
+        "id": 95,
+        "name": "side",
+        "name_ndx": 2372,
+        "hypernym": [],
+        "raw_name": "side",
+        "attributes": "wood",
+        "depth_ordering_rank": 91,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 26, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_095_ADE_train_00000594.png",
+        "polygon": {
+          "x": [239, 240, 219, 220],
+          "y": [504, 449, 451, 506],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:18:28"
+      },
+      {
+        "id": 96,
+        "name": "door",
+        "name_ndx": 774,
+        "hypernym": [],
+        "raw_name": "door",
+        "attributes": [],
+        "depth_ordering_rank": 92,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 97, "ispartof": 26, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_096_ADE_train_00000594.png",
+        "polygon": {
+          "x": [416, 491, 491, 414],
+          "y": [323, 335, 497, 496],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:19:33"
+      },
+      {
+        "id": 97,
+        "name": "knob",
+        "name_ndx": 1380,
+        "hypernym": [],
+        "raw_name": "knob",
+        "attributes": [],
+        "depth_ordering_rank": 93,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 96, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_097_ADE_train_00000594.png",
+        "polygon": {
+          "x": [421, 416, 417, 420, 423, 425, 425, 424],
+          "y": [484, 488, 493, 494, 494, 492, 489, 487],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:19:44"
+      },
+      {
+        "id": 98,
+        "name": "front",
+        "name_ndx": 1031,
+        "hypernym": [],
+        "raw_name": "front",
+        "attributes": "wood",
+        "depth_ordering_rank": 94,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 26, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_098_ADE_train_00000594.png",
+        "polygon": {
+          "x": [493, 492, 243, 240],
+          "y": [507, 330, 289, 505],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:20:13"
+      },
+      {
+        "id": 99,
+        "name": "top",
+        "name_ndx": 2814,
+        "hypernym": [],
+        "raw_name": "top",
+        "attributes": "wood",
+        "depth_ordering_rank": 95,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 27, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_099_ADE_train_00000594.png",
+        "polygon": {
+          "x": [64, 242, 242, 64],
+          "y": [261, 289, 266, 234],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:22:50"
+      },
+      {
+        "id": 100,
+        "name": "door",
+        "name_ndx": 774,
+        "hypernym": [],
+        "raw_name": "door",
+        "attributes": "wood",
+        "depth_ordering_rank": 96,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 101, "ispartof": 27, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_100_ADE_train_00000594.png",
+        "polygon": {
+          "x": [64, 157, 157, 63],
+          "y": [272, 285, 431, 426],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:23:10"
+      },
+      {
+        "id": 101,
+        "name": "knob",
+        "name_ndx": 1380,
+        "hypernym": [],
+        "raw_name": "knob",
+        "attributes": [],
+        "depth_ordering_rank": 97,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 100, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_101_ADE_train_00000594.png",
+        "polygon": {
+          "x": [148, 142, 145, 148, 153, 154, 154],
+          "y": [416, 421, 426, 428, 427, 424, 421],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:23:27"
+      },
+      {
+        "id": 102,
+        "name": "door",
+        "name_ndx": 774,
+        "hypernym": [],
+        "raw_name": "door",
+        "attributes": "wood",
+        "depth_ordering_rank": 98,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 103, "ispartof": 27, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_102_ADE_train_00000594.png",
+        "polygon": {
+          "x": [159, 241, 240, 156],
+          "y": [285, 297, 435, 430],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:23:55"
+      },
+      {
+        "id": 103,
+        "name": "knob",
+        "name_ndx": 1380,
+        "hypernym": [],
+        "raw_name": "knob",
+        "attributes": [],
+        "depth_ordering_rank": 99,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 102, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_103_ADE_train_00000594.png",
+        "polygon": {
+          "x": [166, 161, 162, 165, 170, 171, 171],
+          "y": [418, 422, 426, 428, 428, 426, 422],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:24:05"
+      },
+      {
+        "id": 104,
+        "name": "front",
+        "name_ndx": 1031,
+        "hypernym": [],
+        "raw_name": "front",
+        "attributes": "wood",
+        "depth_ordering_rank": 100,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 27, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_104_ADE_train_00000594.png",
+        "polygon": {
+          "x": [61, 239, 242, 63],
+          "y": [440, 449, 288, 261],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:24:28"
+      },
+      {
+        "id": 105,
+        "name": "top",
+        "name_ndx": 2814,
+        "hypernym": [],
+        "raw_name": "top",
+        "attributes": "wood",
+        "depth_ordering_rank": 101,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 28, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_105_ADE_train_00000594.png",
+        "polygon": {
+          "x": [2, 60, 62, 0],
+          "y": [251, 260, 234, 224],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:25:44"
+      },
+      {
+        "id": 106,
+        "name": "door",
+        "name_ndx": 774,
+        "hypernym": [],
+        "raw_name": "door",
+        "attributes": "wood",
+        "depth_ordering_rank": 102,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 107, "ispartof": 28, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_106_ADE_train_00000594.png",
+        "polygon": {
+          "x": [58, 1, 1, 57],
+          "y": [270, 263, 490, 490],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:26:03"
+      },
+      {
+        "id": 107,
+        "name": "knob",
+        "name_ndx": 1380,
+        "hypernym": [],
+        "raw_name": "knob",
+        "attributes": [],
+        "depth_ordering_rank": 103,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 106, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_107_ADE_train_00000594.png",
+        "polygon": {
+          "x": [50, 46, 46, 49, 52, 56, 57, 55],
+          "y": [475, 481, 486, 488, 488, 486, 482, 477],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:26:14"
+      },
+      {
+        "id": 108,
+        "name": "drawer",
+        "name_ndx": 789,
+        "hypernym": [],
+        "raw_name": "drawer",
+        "attributes": "wood",
+        "depth_ordering_rank": 104,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 109, "ispartof": 32, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_108_ADE_train_00000594.png",
+        "polygon": {
+          "x": [597, 596, 656, 656],
+          "y": [630, 602, 598, 622],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:28:01"
+      },
+      {
+        "id": 109,
+        "name": "handle",
+        "name_ndx": 1180,
+        "hypernym": [],
+        "raw_name": "handle",
+        "attributes": "metal",
+        "depth_ordering_rank": 105,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 108, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_109_ADE_train_00000594.png",
+        "polygon": {
+          "x": [621, 621, 633, 633],
+          "y": [609, 615, 614, 609],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:28:17"
+      },
+      {
+        "id": 110,
+        "name": "drawer",
+        "name_ndx": 789,
+        "hypernym": [],
+        "raw_name": "drawer",
+        "attributes": "wood",
+        "depth_ordering_rank": 106,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 111, "ispartof": 32, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_110_ADE_train_00000594.png",
+        "polygon": {
+          "x": [526, 526, 596, 596],
+          "y": [638, 608, 603, 631],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:29:02"
+      },
+      {
+        "id": 111,
+        "name": "handle",
+        "name_ndx": 1180,
+        "hypernym": [],
+        "raw_name": "handle",
+        "attributes": "metal",
+        "depth_ordering_rank": 107,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 110, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_111_ADE_train_00000594.png",
+        "polygon": {
+          "x": [554, 554, 569, 568],
+          "y": [617, 622, 622, 617],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:29:25"
+      },
+      {
+        "id": 112,
+        "name": "door",
+        "name_ndx": 774,
+        "hypernym": [],
+        "raw_name": "door",
+        "attributes": "wood",
+        "depth_ordering_rank": 108,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 113, "ispartof": 32, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_112_ADE_train_00000594.png",
+        "polygon": {
+          "x": [597, 596, 656, 656, 652, 642, 631, 617, 605],
+          "y": [685, 632, 624, 728, 728, 716, 705, 695, 689],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:30:05"
+      },
+      {
+        "id": 113,
+        "name": "knob",
+        "name_ndx": 1380,
+        "hypernym": [],
+        "raw_name": "knob",
+        "attributes": [],
+        "depth_ordering_rank": 109,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 112, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_113_ADE_train_00000594.png",
+        "polygon": {
+          "x": [604, 608, 606, 601, 599, 599, 599],
+          "y": [642, 637, 634, 634, 635, 638, 640],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:30:22"
+      },
+      {
+        "id": 114,
+        "name": "door",
+        "name_ndx": 774,
+        "hypernym": [],
+        "raw_name": "door",
+        "attributes": "wood",
+        "depth_ordering_rank": 110,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 115, "ispartof": 32, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_114_ADE_train_00000594.png",
+        "polygon": {
+          "x": [526, 596, 596, 585, 569, 556, 544, 533, 526],
+          "y": [639, 632, 686, 684, 683, 684, 689, 694, 698],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:31:03"
+      },
+      {
+        "id": 115,
+        "name": "knob",
+        "name_ndx": 1380,
+        "hypernym": [],
+        "raw_name": "knob",
+        "attributes": [],
+        "depth_ordering_rank": 111,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 114, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_115_ADE_train_00000594.png",
+        "polygon": {
+          "x": [588, 594, 596, 595, 590, 588],
+          "y": [642, 643, 640, 636, 636, 636],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:32:35"
+      },
+      {
+        "id": 116,
+        "name": "drawer",
+        "name_ndx": 789,
+        "hypernym": [],
+        "raw_name": "drawer",
+        "attributes": "wood",
+        "depth_ordering_rank": 112,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 117, "ispartof": 33, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_116_ADE_train_00000594.png",
+        "polygon": {
+          "x": [443, 443, 523, 523],
+          "y": [647, 615, 608, 639],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:33:49"
+      },
+      {
+        "id": 117,
+        "name": "handle",
+        "name_ndx": 1180,
+        "hypernym": [],
+        "raw_name": "handle",
+        "attributes": "metal",
+        "depth_ordering_rank": 113,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 116, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_117_ADE_train_00000594.png",
+        "polygon": {
+          "x": [476, 476, 496, 494],
+          "y": [624, 631, 630, 625],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:34:04"
+      },
+      {
+        "id": 118,
+        "name": "drawer",
+        "name_ndx": 789,
+        "hypernym": [],
+        "raw_name": "drawer",
+        "attributes": [],
+        "depth_ordering_rank": 114,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 119, "ispartof": 33, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_118_ADE_train_00000594.png",
+        "polygon": {
+          "x": [352, 351, 441, 442],
+          "y": [657, 622, 615, 647],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:34:31"
+      },
+      {
+        "id": 119,
+        "name": "handle",
+        "name_ndx": 1180,
+        "hypernym": [],
+        "raw_name": "handle",
+        "attributes": "metal",
+        "depth_ordering_rank": 115,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 118, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_119_ADE_train_00000594.png",
+        "polygon": {
+          "x": [388, 387, 407, 407],
+          "y": [632, 640, 638, 632],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:34:46"
+      },
+      {
+        "id": 120,
+        "name": "door",
+        "name_ndx": 774,
+        "hypernym": [],
+        "raw_name": "door",
+        "attributes": "wood",
+        "depth_ordering_rank": 116,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 121, "ispartof": 33, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_120_ADE_train_00000594.png",
+        "polygon": {
+          "x": [443, 444, 472, 485, 489, 499, 509, 518, 523, 523],
+          "y": [650, 761, 768, 767, 752, 729, 714, 705, 699, 640],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:36:20"
+      },
+      {
+        "id": 121,
+        "name": "knob",
+        "name_ndx": 1380,
+        "hypernym": [],
+        "raw_name": "knob",
+        "attributes": [],
+        "depth_ordering_rank": 117,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 120, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_121_ADE_train_00000594.png",
+        "polygon": {
+          "x": [450, 456, 457, 452, 448, 448],
+          "y": [661, 659, 653, 651, 653, 656],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:36:31"
+      },
+      {
+        "id": 122,
+        "name": "door",
+        "name_ndx": 774,
+        "hypernym": [],
+        "raw_name": "door",
+        "attributes": "wood",
+        "depth_ordering_rank": 118,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 123, "ispartof": 33, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_122_ADE_train_00000594.png",
+        "polygon": {
+          "x": [352, 441, 442, 429, 400, 377, 363, 351],
+          "y": [660, 649, 759, 756, 752, 750, 748, 748],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:36:55"
+      },
+      {
+        "id": 123,
+        "name": "knob",
+        "name_ndx": 1380,
+        "hypernym": [],
+        "raw_name": "knob",
+        "attributes": [],
+        "depth_ordering_rank": 119,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 122, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_123_ADE_train_00000594.png",
+        "polygon": {
+          "x": [435, 435, 439, 441, 441, 439],
+          "y": [655, 661, 661, 659, 655, 653],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:37:06"
+      },
+      {
+        "id": 124,
+        "name": "drawer",
+        "name_ndx": 789,
+        "hypernym": [],
+        "raw_name": "drawer",
+        "attributes": "wood",
+        "depth_ordering_rank": 120,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 125, "ispartof": 34, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_124_ADE_train_00000594.png",
+        "polygon": {
+          "x": [264, 264, 346, 347],
+          "y": [668, 644, 637, 659],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:38:24"
+      },
+      {
+        "id": 125,
+        "name": "handle",
+        "name_ndx": 1180,
+        "hypernym": [],
+        "raw_name": "handle",
+        "attributes": "metal",
+        "depth_ordering_rank": 121,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 124, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_125_ADE_train_00000594.png",
+        "polygon": {
+          "x": [293, 293, 318, 318],
+          "y": [648, 654, 653, 647],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:38:44"
+      },
+      {
+        "id": 126,
+        "name": "drawer",
+        "name_ndx": 789,
+        "hypernym": [],
+        "raw_name": "drawer",
+        "attributes": "wood",
+        "depth_ordering_rank": 122,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 127, "ispartof": 34, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_126_ADE_train_00000594.png",
+        "polygon": {
+          "x": [263, 346, 346, 264],
+          "y": [670, 661, 711, 722],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:39:02"
+      },
+      {
+        "id": 127,
+        "name": "handle",
+        "name_ndx": 1180,
+        "hypernym": [],
+        "raw_name": "handle",
+        "attributes": "metal",
+        "depth_ordering_rank": 123,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 126, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_127_ADE_train_00000594.png",
+        "polygon": {
+          "x": [294, 295, 320, 319],
+          "y": [690, 698, 695, 688],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:39:17"
+      },
+      {
+        "id": 128,
+        "name": "back",
+        "name_ndx": 83,
+        "hypernym": [],
+        "raw_name": "back",
+        "attributes": "wood",
+        "depth_ordering_rank": 124,
+        "occluded": "no",
+        "crop": "0",
+        "parts": {
+          "hasparts": [129, 130, 131, 132, 133, 134, 135],
+          "ispartof": 35,
+          "part_level": 1
+        },
+        "instance_mask": "ADE_train_00000594/instance_128_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            74, 69, 55, 50, 51, 56, 68, 88, 111, 131, 146, 170, 189, 210, 220,
+            232, 245, 256, 262, 264, 265, 256, 244, 239
+          ],
+          "y": [
+            779, 786, 791, 767, 743, 720, 695, 676, 664, 656, 653, 652, 653,
+            656, 661, 669, 683, 699, 713, 730, 747, 747, 748, 753
+          ],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:40:35"
+      },
+      {
+        "id": 129,
+        "name": "rail",
+        "name_ndx": 2051,
+        "hypernym": [],
+        "raw_name": "rail",
+        "attributes": "wood",
+        "depth_ordering_rank": 125,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 128, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_129_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            68, 66, 65, 70, 80, 91, 105, 126, 145, 168, 183, 208, 220, 229, 239,
+            248, 251, 252, 266, 265, 261, 250, 237, 215, 195, 170, 149, 130,
+            113, 94, 77, 65, 55, 51, 50, 53, 69
+          ],
+          "y": [
+            780, 763, 747, 725, 706, 693, 683, 673, 667, 665, 666, 671, 677,
+            685, 697, 711, 727, 747, 747, 726, 707, 690, 674, 659, 653, 652,
+            654, 658, 664, 673, 686, 700, 724, 749, 774, 791, 786
+          ],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:41:34"
+      },
+      {
+        "id": 130,
+        "name": "spindle",
+        "name_ndx": 2499,
+        "hypernym": [],
+        "raw_name": "spindle",
+        "attributes": "wood",
+        "depth_ordering_rank": 126,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 128, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_130_ADE_train_00000594.png",
+        "polygon": {
+          "x": [83, 84, 81, 86, 103, 101, 97, 95, 88],
+          "y": [704, 731, 745, 778, 775, 753, 741, 727, 699],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:41:56"
+      },
+      {
+        "id": 131,
+        "name": "spindle",
+        "name_ndx": 2499,
+        "hypernym": [],
+        "raw_name": "spindle",
+        "attributes": "wood",
+        "depth_ordering_rank": 127,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 128, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_131_ADE_train_00000594.png",
+        "polygon": {
+          "x": [111, 110, 109, 108, 113, 130, 126, 120, 118, 114],
+          "y": [683, 711, 724, 729, 772, 770, 726, 718, 701, 680],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:42:16"
+      },
+      {
+        "id": 132,
+        "name": "spindle",
+        "name_ndx": 2499,
+        "hypernym": [],
+        "raw_name": "spindle",
+        "attributes": "wood",
+        "depth_ordering_rank": 128,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 128, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_132_ADE_train_00000594.png",
+        "polygon": {
+          "x": [140, 140, 137, 142, 156, 154, 150, 145],
+          "y": [670, 696, 715, 768, 766, 715, 705, 668],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:42:40"
+      },
+      {
+        "id": 133,
+        "name": "spindle",
+        "name_ndx": 2499,
+        "hypernym": [],
+        "raw_name": "spindle",
+        "attributes": "wood",
+        "depth_ordering_rank": 129,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 128, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_133_ADE_train_00000594.png",
+        "polygon": {
+          "x": [170, 171, 167, 169, 184, 183, 179, 178, 177],
+          "y": [666, 696, 709, 764, 763, 705, 696, 683, 666],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:43:01"
+      },
+      {
+        "id": 134,
+        "name": "spindle",
+        "name_ndx": 2499,
+        "hypernym": [],
+        "raw_name": "spindle",
+        "attributes": "wood",
+        "depth_ordering_rank": 130,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 128, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_134_ADE_train_00000594.png",
+        "polygon": {
+          "x": [200, 198, 198, 195, 195, 210, 210, 208, 206, 206],
+          "y": [671, 696, 711, 717, 760, 758, 716, 708, 688, 673],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:43:21"
+      },
+      {
+        "id": 135,
+        "name": "spindle",
+        "name_ndx": 2499,
+        "hypernym": [],
+        "raw_name": "spindle",
+        "attributes": "wood",
+        "depth_ordering_rank": 131,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 128, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_135_ADE_train_00000594.png",
+        "polygon": {
+          "x": [227, 225, 221, 219, 234, 235, 234, 232, 231],
+          "y": [685, 709, 724, 756, 754, 726, 718, 707, 687],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:43:47"
+      },
+      {
+        "id": 136,
+        "name": "drawer",
+        "name_ndx": 789,
+        "hypernym": [],
+        "raw_name": "drawer",
+        "attributes": "wood",
+        "depth_ordering_rank": 132,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 137, "ispartof": 36, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_136_ADE_train_00000594.png",
+        "polygon": {
+          "x": [62, 60, 2, 1],
+          "y": [693, 662, 667, 699],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:45:17"
+      },
+      {
+        "id": 137,
+        "name": "handle",
+        "name_ndx": 1180,
+        "hypernym": [],
+        "raw_name": "handle",
+        "attributes": "metal",
+        "depth_ordering_rank": 133,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 136, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_137_ADE_train_00000594.png",
+        "polygon": {
+          "x": [8, 8, 44, 42],
+          "y": [679, 685, 683, 676],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:45:34"
+      },
+      {
+        "id": 138,
+        "name": "drawer",
+        "name_ndx": 789,
+        "hypernym": [],
+        "raw_name": "drawer",
+        "attributes": "wood",
+        "depth_ordering_rank": 134,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 139, "ispartof": 36, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_138_ADE_train_00000594.png",
+        "polygon": {
+          "x": [970, 970, 1011, 1013],
+          "y": [723, 678, 667, 707],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:48:09"
+      },
+      {
+        "id": 139,
+        "name": "knob",
+        "name_ndx": 1380,
+        "hypernym": [],
+        "raw_name": "knob",
+        "attributes": [],
+        "depth_ordering_rank": 135,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 138, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_139_ADE_train_00000594.png",
+        "polygon": {
+          "x": [993, 998, 999, 1004, 1006, 1004, 999, 997, 993],
+          "y": [692, 694, 698, 698, 690, 687, 686, 689, 688],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:48:23"
+      },
+      {
+        "id": 140,
+        "name": "door",
+        "name_ndx": 774,
+        "hypernym": [],
+        "raw_name": "door",
+        "attributes": "wood",
+        "depth_ordering_rank": 136,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 141, "ispartof": 36, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_140_ADE_train_00000594.png",
+        "polygon": {
+          "x": [968, 1011, 1008, 971, 965],
+          "y": [727, 712, 895, 924, 920],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:48:41"
+      },
+      {
+        "id": 141,
+        "name": "knob",
+        "name_ndx": 1380,
+        "hypernym": [],
+        "raw_name": "knob",
+        "attributes": [],
+        "depth_ordering_rank": 137,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 140, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_141_ADE_train_00000594.png",
+        "polygon": {
+          "x": [1006, 1011, 1013, 1018, 1020, 1020, 1015, 1011, 1008],
+          "y": [726, 725, 730, 730, 726, 721, 720, 724, 722],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:48:53"
+      },
+      {
+        "id": 142,
+        "name": "door",
+        "name_ndx": 774,
+        "hypernym": [],
+        "raw_name": "door",
+        "attributes": "wood",
+        "depth_ordering_rank": 138,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 36, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_142_ADE_train_00000594.png",
+        "polygon": {
+          "x": [1067, 1012, 1009, 1067],
+          "y": [690, 711, 894, 852],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:49:19"
+      },
+      {
+        "id": 143,
+        "name": "door",
+        "name_ndx": 774,
+        "hypernym": [],
+        "raw_name": "door",
+        "attributes": "wood",
+        "depth_ordering_rank": 139,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 144, "ispartof": 36, "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_143_ADE_train_00000594.png",
+        "polygon": {
+          "x": [1114, 1069, 1069, 1115],
+          "y": [672, 690, 850, 817],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:49:50"
+      },
+      {
+        "id": 144,
+        "name": "knob",
+        "name_ndx": 1380,
+        "hypernym": [],
+        "raw_name": "knob",
+        "attributes": [],
+        "depth_ordering_rank": 140,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 143, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_144_ADE_train_00000594.png",
+        "polygon": {
+          "x": [1075, 1077, 1081, 1085, 1080, 1077, 1072, 1072],
+          "y": [707, 702, 706, 700, 694, 698, 698, 703],
+          "click_date": []
+        },
+        "saved_date": "05-Oct-2014 22:50:02"
+      },
+      {
+        "id": 145,
+        "name": "light source",
+        "name_ndx": 1448,
+        "hypernym": [],
+        "raw_name": "light source",
+        "attributes": [],
+        "depth_ordering_rank": 141,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 146, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_145_ADE_train_00000594.png",
+        "polygon": {
+          "x": [251, 238, 235, 237, 240, 248, 255, 262, 266, 265, 259],
+          "y": [179, 178, 181, 186, 189, 191, 193, 191, 188, 183, 180],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:04:27"
+      },
+      {
+        "id": 146,
+        "name": "light, light source",
+        "name_ndx": 1451,
+        "hypernym": [
+          "light, light source",
+          "source of illumination",
+          "device",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "ceiling recessed light",
+        "attributes": "direct,general,on,punctual",
+        "depth_ordering_rank": 142,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 145, "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_146_ADE_train_00000594.png",
+        "polygon": {
+          "x": [246, 233, 232, 235, 244, 255, 265, 269, 268, 263],
+          "y": [174, 175, 181, 189, 193, 195, 193, 189, 183, 177],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:09:43"
+      },
+      {
+        "id": 147,
+        "name": "light source",
+        "name_ndx": 1448,
+        "hypernym": [],
+        "raw_name": "light source",
+        "attributes": [],
+        "depth_ordering_rank": 143,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 148, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_147_ADE_train_00000594.png",
+        "polygon": {
+          "x": [483, 476, 471, 480, 489, 495, 498, 492],
+          "y": [235, 236, 240, 247, 246, 244, 240, 236],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:09:59"
+      },
+      {
+        "id": 148,
+        "name": "light, light source",
+        "name_ndx": 1451,
+        "hypernym": [
+          "light, light source",
+          "source of illumination",
+          "device",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "ceiling recessed light",
+        "attributes": "direct,general,on,punctual",
+        "depth_ordering_rank": 144,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": [147, 149], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_148_ADE_train_00000594.png",
+        "polygon": {
+          "x": [484, 474, 468, 469, 474, 489, 499, 501, 500, 494],
+          "y": [232, 232, 238, 244, 248, 249, 248, 243, 237, 233],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:10:24"
+      },
+      {
+        "id": 149,
+        "name": "highlight",
+        "name_ndx": 1238,
+        "hypernym": [],
+        "raw_name": "highlight",
+        "attributes": [],
+        "depth_ordering_rank": 145,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 148, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_149_ADE_train_00000594.png",
+        "polygon": {
+          "x": [451, 436, 432, 437, 445, 452, 460, 459],
+          "y": [335, 335, 344, 351, 352, 351, 346, 341],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:10:38"
+      },
+      {
+        "id": 150,
+        "name": "light source",
+        "name_ndx": 1448,
+        "hypernym": [],
+        "raw_name": "light source",
+        "attributes": [],
+        "depth_ordering_rank": 146,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 151, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_150_ADE_train_00000594.png",
+        "polygon": {
+          "x": [649, 642, 639, 643, 649, 654, 658, 660, 658],
+          "y": [276, 277, 282, 286, 286, 286, 285, 281, 278],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:10:55"
+      },
+      {
+        "id": 151,
+        "name": "light, light source",
+        "name_ndx": 1451,
+        "hypernym": [
+          "light, light source",
+          "source of illumination",
+          "device",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "ceiling recessed light",
+        "attributes": "direct,general,on,punctual",
+        "depth_ordering_rank": 147,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": [150, 152], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_151_ADE_train_00000594.png",
+        "polygon": {
+          "x": [650, 642, 636, 636, 640, 652, 660, 663, 661, 659],
+          "y": [272, 272, 279, 285, 288, 288, 286, 283, 276, 274],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:24:55"
+      },
+      {
+        "id": 152,
+        "name": "highlight",
+        "name_ndx": 1238,
+        "hypernym": [],
+        "raw_name": "highlight",
+        "attributes": [],
+        "depth_ordering_rank": 148,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 151, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_152_ADE_train_00000594.png",
+        "polygon": {
+          "x": [565, 553, 554, 558, 567, 573, 574],
+          "y": [355, 359, 362, 368, 371, 366, 360],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:25:10"
+      },
+      {
+        "id": 153,
+        "name": "light source",
+        "name_ndx": 1448,
+        "hypernym": [],
+        "raw_name": "light source",
+        "attributes": [],
+        "depth_ordering_rank": 149,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 154, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_153_ADE_train_00000594.png",
+        "polygon": {
+          "x": [770, 762, 762, 765, 772, 779, 781, 778],
+          "y": [308, 311, 315, 317, 318, 316, 313, 309],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:25:30"
+      },
+      {
+        "id": 154,
+        "name": "light, light source",
+        "name_ndx": 1451,
+        "hypernym": [
+          "light, light source",
+          "source of illumination",
+          "device",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "ceiling recessed light",
+        "attributes": "direct,general,on,punctual",
+        "depth_ordering_rank": 150,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 153, "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_154_ADE_train_00000594.png",
+        "polygon": {
+          "x": [771, 765, 760, 760, 762, 769, 780, 784, 780],
+          "y": [304, 306, 311, 314, 318, 319, 319, 313, 307],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:26:00"
+      },
+      {
+        "id": 155,
+        "name": "light source",
+        "name_ndx": 1448,
+        "hypernym": [],
+        "raw_name": "light source",
+        "attributes": [],
+        "depth_ordering_rank": 151,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 156, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_155_ADE_train_00000594.png",
+        "polygon": {
+          "x": [147, 139, 138, 142, 148, 152, 152],
+          "y": [441, 442, 445, 447, 448, 448, 445],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:26:20"
+      },
+      {
+        "id": 156,
+        "name": "light, light source",
+        "name_ndx": 1451,
+        "hypernym": [
+          "light, light source",
+          "source of illumination",
+          "device",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "ceiling recessed light",
+        "attributes": "direct,on,punctual,task",
+        "depth_ordering_rank": 152,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": [155, 157], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_156_ADE_train_00000594.png",
+        "polygon": {
+          "x": [145, 136, 135, 141, 149, 154, 156, 151],
+          "y": [439, 441, 445, 449, 450, 450, 445, 442],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:26:42"
+      },
+      {
+        "id": 157,
+        "name": "highlight",
+        "name_ndx": 1238,
+        "hypernym": [],
+        "raw_name": "highlight",
+        "attributes": [],
+        "depth_ordering_rank": 153,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 156, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_157_ADE_train_00000594.png",
+        "polygon": {
+          "x": [154, 130, 105, 99, 99, 107, 117, 128, 148, 174, 181, 175, 161],
+          "y": [
+            458, 453, 464, 473, 485, 500, 508, 512, 512, 496, 482, 464, 459
+          ],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:26:56"
+      },
+      {
+        "id": 158,
+        "name": "light source",
+        "name_ndx": 1448,
+        "hypernym": [],
+        "raw_name": "light source",
+        "attributes": [],
+        "depth_ordering_rank": 154,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 159, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_158_ADE_train_00000594.png",
+        "polygon": {
+          "x": [355, 350, 349, 361],
+          "y": [505, 504, 506, 506],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:44:30"
+      },
+      {
+        "id": 159,
+        "name": "light, light source",
+        "name_ndx": 1451,
+        "hypernym": [
+          "light, light source",
+          "source of illumination",
+          "device",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "ceiling recessed light",
+        "attributes": "direct,on,punctual,task",
+        "depth_ordering_rank": 155,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": [158, 160], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_159_ADE_train_00000594.png",
+        "polygon": {
+          "x": [357, 351, 346, 356, 362],
+          "y": [501, 502, 507, 508, 507],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:45:08"
+      },
+      {
+        "id": 160,
+        "name": "highlight",
+        "name_ndx": 1238,
+        "hypernym": [],
+        "raw_name": "highlight",
+        "attributes": [],
+        "depth_ordering_rank": 156,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 159, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_160_ADE_train_00000594.png",
+        "polygon": {
+          "x": [367, 354, 328, 316, 308, 309, 308, 322, 354, 368, 371],
+          "y": [522, 515, 506, 518, 538, 566, 581, 592, 578, 554, 536],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:45:27"
+      },
+      {
+        "id": 161,
+        "name": "light source",
+        "name_ndx": 1448,
+        "hypernym": [],
+        "raw_name": "light source",
+        "attributes": [],
+        "depth_ordering_rank": 157,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 162, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_161_ADE_train_00000594.png",
+        "polygon": {
+          "x": [434, 427, 428, 441],
+          "y": [504, 505, 507, 505],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:45:46"
+      },
+      {
+        "id": 162,
+        "name": "light, light source",
+        "name_ndx": 1451,
+        "hypernym": [
+          "light, light source",
+          "source of illumination",
+          "device",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "ceiling recessed light",
+        "attributes": "direct,on,punctual,task",
+        "depth_ordering_rank": 158,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": [161, 163], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_162_ADE_train_00000594.png",
+        "polygon": {
+          "x": [430, 425, 426, 433, 439, 441, 437],
+          "y": [502, 505, 508, 508, 507, 505, 502],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:46:12"
+      },
+      {
+        "id": 163,
+        "name": "highlight",
+        "name_ndx": 1238,
+        "hypernym": [],
+        "raw_name": "highlight",
+        "attributes": [],
+        "depth_ordering_rank": 159,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 162, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_163_ADE_train_00000594.png",
+        "polygon": {
+          "x": [439, 435, 417, 406, 396, 388, 398, 426, 444, 451, 451, 446],
+          "y": [522, 515, 511, 515, 521, 535, 561, 568, 560, 548, 537, 529],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:46:25"
+      },
+      {
+        "id": 164,
+        "name": "light source",
+        "name_ndx": 1448,
+        "hypernym": [],
+        "raw_name": "light source",
+        "attributes": [],
+        "depth_ordering_rank": 160,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 165, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_164_ADE_train_00000594.png",
+        "polygon": {
+          "x": [509, 503, 513, 516],
+          "y": [504, 506, 507, 505],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:46:48"
+      },
+      {
+        "id": 165,
+        "name": "light, light source",
+        "name_ndx": 1451,
+        "hypernym": [
+          "light, light source",
+          "source of illumination",
+          "device",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "ceiling recessed light",
+        "attributes": "direct,on,punctual,task",
+        "depth_ordering_rank": 161,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": [164, 166], "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_165_ADE_train_00000594.png",
+        "polygon": {
+          "x": [504, 501, 508, 514, 517, 516],
+          "y": [502, 506, 508, 508, 506, 504],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:47:12"
+      },
+      {
+        "id": 166,
+        "name": "highlight",
+        "name_ndx": 1238,
+        "hypernym": [],
+        "raw_name": "highlight",
+        "attributes": [],
+        "depth_ordering_rank": 162,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 165, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_166_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            518, 512, 498, 483, 470, 466, 464, 467, 479, 495, 519, 521, 521
+          ],
+          "y": [
+            520, 516, 512, 512, 519, 528, 540, 554, 567, 569, 559, 542, 529
+          ],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:47:25"
+      },
+      {
+        "id": 167,
+        "name": "light source",
+        "name_ndx": 1448,
+        "hypernym": [],
+        "raw_name": "light source",
+        "attributes": [],
+        "depth_ordering_rank": 163,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 168, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_167_ADE_train_00000594.png",
+        "polygon": {
+          "x": [572, 568, 568, 572, 576, 578],
+          "y": [504, 505, 507, 508, 507, 505],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:47:50"
+      },
+      {
+        "id": 168,
+        "name": "light, light source",
+        "name_ndx": 1451,
+        "hypernym": [
+          "light, light source",
+          "source of illumination",
+          "device",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "ceiling recessed light",
+        "attributes": "direct,on,punctual,task",
+        "depth_ordering_rank": 164,
+        "occluded": "no",
+        "crop": "0",
+        "parts": {
+          "hasparts": [167, 169, 170],
+          "ispartof": [],
+          "part_level": 0
+        },
+        "instance_mask": "ADE_train_00000594/instance_168_ADE_train_00000594.png",
+        "polygon": {
+          "x": [580, 571, 567, 566, 570, 574],
+          "y": [503, 503, 504, 505, 509, 509],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:48:14"
+      },
+      {
+        "id": 169,
+        "name": "highlight",
+        "name_ndx": 1238,
+        "hypernym": [],
+        "raw_name": "highlight",
+        "attributes": [],
+        "depth_ordering_rank": 165,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 168, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_169_ADE_train_00000594.png",
+        "polygon": {
+          "x": [578, 573, 556, 544, 534, 533, 534, 541, 557, 565, 574, 577],
+          "y": [525, 517, 510, 515, 526, 535, 547, 558, 564, 558, 547, 539],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:48:25"
+      },
+      {
+        "id": 170,
+        "name": "highlight",
+        "name_ndx": 1238,
+        "hypernym": [],
+        "raw_name": "highlight",
+        "attributes": [],
+        "depth_ordering_rank": 166,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 168, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_170_ADE_train_00000594.png",
+        "polygon": {
+          "x": [635, 638, 628, 615, 599, 593, 591, 600, 617, 630],
+          "y": [560, 535, 523, 518, 519, 529, 546, 558, 562, 561],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:48:42"
+      },
+      {
+        "id": 171,
+        "name": "light source",
+        "name_ndx": 1448,
+        "hypernym": [],
+        "raw_name": "light source",
+        "attributes": [],
+        "depth_ordering_rank": 167,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 172, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_171_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            1215, 1201, 1189, 1184, 1183, 1185, 1191, 1213, 1222, 1226, 1227,
+            1223
+          ],
+          "y": [96, 99, 104, 108, 112, 115, 116, 113, 109, 104, 100, 97],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:49:32"
+      },
+      {
+        "id": 172,
+        "name": "light, light source",
+        "name_ndx": 1451,
+        "hypernym": [
+          "light, light source",
+          "source of illumination",
+          "device",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "ceiling recessed light",
+        "attributes": "direct,general,on,punctual",
+        "depth_ordering_rank": 168,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "hasparts": 171, "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_172_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            1214, 1197, 1183, 1176, 1175, 1179, 1187, 1198, 1217, 1224, 1231,
+            1235, 1234, 1227
+          ],
+          "y": [
+            90, 94, 100, 108, 111, 116, 118, 119, 115, 112, 106, 98, 95, 92
+          ],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:50:48"
+      },
+      {
+        "id": 173,
+        "name": "light source",
+        "name_ndx": 1448,
+        "hypernym": [],
+        "raw_name": "light source",
+        "attributes": [],
+        "depth_ordering_rank": 169,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 174, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_173_ADE_train_00000594.png",
+        "polygon": {
+          "x": [1271, 1263, 1259, 1259, 1263, 1271, 1280, 1279],
+          "y": [191, 195, 197, 201, 203, 204, 200, 190],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:51:04"
+      },
+      {
+        "id": 174,
+        "name": "light, light source",
+        "name_ndx": 1451,
+        "hypernym": [
+          "light, light source",
+          "source of illumination",
+          "device",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "ceiling recessed light",
+        "attributes": "direct,general,on,punctual",
+        "depth_ordering_rank": 170,
+        "occluded": "no",
+        "crop": "1",
+        "parts": { "hasparts": 173, "ispartof": [], "part_level": 0 },
+        "instance_mask": "ADE_train_00000594/instance_174_ADE_train_00000594.png",
+        "polygon": {
+          "x": [1270, 1260, 1256, 1256, 1256, 1263, 1271, 1279, 1279],
+          "y": [187, 190, 195, 198, 203, 204, 205, 205, 188],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:52:03"
+      },
+      {
+        "id": 175,
+        "name": "lamp",
+        "name_ndx": 1395,
+        "hypernym": [
+          "lamp",
+          "source of illumination",
+          "device",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "pendant lamp",
+        "attributes": "direct,general,on,volumetric",
+        "depth_ordering_rank": 171,
+        "occluded": "no",
+        "crop": "0",
+        "parts": {
+          "hasparts": [176, 177, 178, 179, 180, 181],
+          "ispartof": [],
+          "part_level": 0
+        },
+        "instance_mask": "ADE_train_00000594/instance_175_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            892, 875, 869, 868, 869, 879, 850, 850, 854, 884, 891, 918, 916,
+            914, 909, 900, 897, 894, 889, 888, 883, 874, 866, 855, 863, 863,
+            856, 850, 840, 840, 844, 839, 838, 850, 847, 833, 823, 809, 814,
+            838, 875, 893, 894, 889, 880, 875, 867, 860, 857, 916, 915, 904,
+            897, 890, 885, 881, 894, 926, 948, 966, 956, 946, 942, 932, 927,
+            934, 934, 926, 926, 931, 934, 930, 925, 898, 903, 910, 908, 897
+          ],
+          "y": [
+            254, 256, 259, 262, 265, 271, 322, 328, 328, 276, 275, 347, 350,
+            355, 358, 343, 339, 341, 346, 340, 336, 338, 348, 353, 346, 335,
+            328, 329, 336, 341, 349, 352, 357, 360, 366, 373, 390, 402, 406,
+            410, 407, 405, 401, 393, 384, 376, 373, 369, 362, 377, 383, 390,
+            400, 405, 414, 416, 420, 421, 420, 415, 409, 398, 392, 387, 382,
+            382, 377, 373, 371, 366, 360, 353, 352, 275, 274, 268, 263, 256
+          ],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:54:12"
+      },
+      {
+        "id": 176,
+        "name": "canopy",
+        "name_ndx": 389,
+        "hypernym": [],
+        "raw_name": "canopy",
+        "attributes": [],
+        "depth_ordering_rank": 172,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 175, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_176_ADE_train_00000594.png",
+        "polygon": {
+          "x": [891, 878, 868, 867, 870, 880, 897, 904, 908, 907, 898],
+          "y": [252, 255, 258, 262, 269, 273, 276, 274, 268, 262, 255],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:54:24"
+      },
+      {
+        "id": 177,
+        "name": "chain",
+        "name_ndx": 468,
+        "hypernym": [],
+        "raw_name": "chain",
+        "attributes": [],
+        "depth_ordering_rank": 173,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 175, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_177_ADE_train_00000594.png",
+        "polygon": {
+          "x": [847, 877, 890, 900, 922, 919, 892, 883, 853],
+          "y": [325, 273, 276, 277, 345, 348, 276, 274, 327],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:54:43"
+      },
+      {
+        "id": 178,
+        "name": "shade",
+        "name_ndx": 2311,
+        "hypernym": [],
+        "raw_name": "shade",
+        "attributes": "translucent",
+        "depth_ordering_rank": 174,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 175, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_178_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            847, 835, 831, 821, 815, 810, 814, 846, 882, 891, 895, 888, 880,
+            876, 869, 860
+          ],
+          "y": [
+            369, 372, 376, 388, 396, 402, 405, 411, 408, 405, 402, 393, 386,
+            378, 373, 369
+          ],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:55:09"
+      },
+      {
+        "id": 179,
+        "name": "shade",
+        "name_ndx": 2311,
+        "hypernym": [],
+        "raw_name": "shade",
+        "attributes": "translucent",
+        "depth_ordering_rank": 175,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 175, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_179_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            921, 913, 904, 898, 888, 882, 886, 915, 953, 962, 961, 951, 942, 931
+          ],
+          "y": [
+            386, 387, 392, 397, 407, 416, 418, 422, 419, 415, 413, 406, 393, 386
+          ],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:55:33"
+      },
+      {
+        "id": 180,
+        "name": "light source",
+        "name_ndx": 1448,
+        "hypernym": [],
+        "raw_name": "light source",
+        "attributes": [],
+        "depth_ordering_rank": 176,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 175, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_180_ADE_train_00000594.png",
+        "polygon": {
+          "x": [918, 911, 905, 907, 915, 930, 934, 934, 929],
+          "y": [391, 394, 400, 405, 409, 410, 403, 397, 394],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:55:43"
+      },
+      {
+        "id": 181,
+        "name": "light source",
+        "name_ndx": 1448,
+        "hypernym": [],
+        "raw_name": "light source",
+        "attributes": [],
+        "depth_ordering_rank": 177,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 175, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_181_ADE_train_00000594.png",
+        "polygon": {
+          "x": [854, 846, 839, 835, 839, 849, 860, 863, 866, 865, 861],
+          "y": [374, 376, 381, 387, 393, 396, 396, 395, 389, 383, 380],
+          "click_date": []
+        },
+        "saved_date": "15-Mar-2014 17:55:55"
+      },
+      {
+        "id": 182,
+        "name": "speaker",
+        "name_ndx": 2487,
+        "hypernym": [],
+        "raw_name": "speaker",
+        "attributes": [],
+        "depth_ordering_rank": 178,
+        "occluded": "yes",
+        "crop": "1",
+        "parts": { "ispartof": 185, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_182_ADE_train_00000594.png",
+        "polygon": {
+          "x": [87, 93, 96, 107, 106, 103, 101, 98, 92, 88, 86],
+          "y": [602, 625, 618, 618, 608, 606, 588, 588, 589, 592, 595],
+          "click_date": []
+        },
+        "saved_date": "03-Jun-2015 19:50:20"
+      },
+      {
+        "id": 183,
+        "name": "speaker",
+        "name_ndx": 2487,
+        "hypernym": [],
+        "raw_name": "speaker",
+        "attributes": [],
+        "depth_ordering_rank": 179,
+        "occluded": "yes",
+        "crop": "1",
+        "parts": { "ispartof": 185, "hasparts": [], "part_level": 1 },
+        "instance_mask": "ADE_train_00000594/instance_183_ADE_train_00000594.png",
+        "polygon": {
+          "x": [201, 203, 203, 202, 200, 199, 192, 189, 197, 196],
+          "y": [584, 591, 598, 606, 611, 614, 614, 606, 604, 584],
+          "click_date": []
+        },
+        "saved_date": "03-Jun-2015 19:50:36"
+      },
+      {
+        "id": 184,
+        "name": "screen",
+        "name_ndx": 2250,
+        "hypernym": [],
+        "raw_name": "screen",
+        "attributes": [],
+        "depth_ordering_rank": 180,
+        "occluded": "no",
+        "crop": "0",
+        "parts": { "ispartof": 29, "hasparts": [], "part_level": 2 },
+        "instance_mask": "ADE_train_00000594/instance_184_ADE_train_00000594.png",
+        "polygon": {
+          "x": [107, 109, 188, 188],
+          "y": [536, 599, 596, 537],
+          "click_date": []
+        },
+        "saved_date": "16-Aug-2015 23:31:30"
+      },
+      {
+        "id": 185,
+        "name": "computer, computing machine, computing device, data processor, electronic computer, information processing system",
+        "name_ndx": 591,
+        "hypernym": [
+          "computer, computing machine, computing device, data processor, electronic computer, information processing system",
+          "machine",
+          "device",
+          "instrumentality, instrumentation",
+          "artifact, artefact",
+          "whole, unit",
+          "object, physical object",
+          "physical entity",
+          "entity"
+        ],
+        "raw_name": "computer",
+        "attributes": "desktop",
+        "depth_ordering_rank": 181,
+        "occluded": "no",
+        "crop": "0",
+        "parts": {
+          "hasparts": [29, 30, 182, 183],
+          "ispartof": [],
+          "part_level": 0
+        },
+        "instance_mask": "ADE_train_00000594/instance_185_ADE_train_00000594.png",
+        "polygon": {
+          "x": [
+            100, 100, 89, 85, 89, 93, 95, 99, 141, 176, 161, 106, 108, 131, 133,
+            154, 160, 190, 190, 195, 204, 207, 201, 199, 196
+          ],
+          "y": [
+            526, 588, 590, 595, 615, 625, 618, 634, 634, 617, 616, 617, 608,
+            606, 615, 616, 607, 604, 611, 614, 607, 590, 583, 583, 529
+          ],
+          "click_date": []
+        },
+        "saved_date": "16-Aug-2015 23:32:48"
+      }
+    ]
+  }
+}
